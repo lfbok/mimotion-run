@@ -9,7 +9,7 @@ class MiMotion():
         self.check_item = check_item
         self.headers = {"User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; MI 6 MIUI/20.6.18)"}
 
-   #发送酷推1
+   #发送酷推
     def push(self, title, content):
         try:
             url = "https://push.xuthus.cc/send/" + skey
